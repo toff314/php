@@ -1,0 +1,21 @@
+{
+    "name": "yuanwu/php",
+    "description": "this is a test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "toff314",
+            "email": "toff314@163.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php" : ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "yuanwu\\php\\" : "src/"
+        }
+    }
+}
